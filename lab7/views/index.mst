@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+  {{>head}}
+</head>
+
+<body>
+<div id="site-body">
+<header>
+{{>header}}
+</header>
+    <img class="main-photo" src="/images/main_photo.jpg">
+    <h1>Ласкаво просимо до ЗОШ І-ІІІ ступенів №2!</h1>
+    <p>ОФІЦІЙНИЙ САЙТ</p>
+    <form action="/auth/register" method="GET" onsubmit = "return validationRedirect();">
+        <input type="submit"  value="Створитися">
+    </form>
+    <form action="/auth/login" method="GET" onsubmit = "return validationRedirect();">
+        <input type="submit"  value="Увійти">
+    </form>
+    <form action="/auth/logout" method="GET" onsubmit = "return validationRedirect();">
+        <input type="submit" value="Вийти"><br>
+    </form>
+    <br>
+    <br>
+    <br>
+    {{>footer}}
+     
+  </div>
+
+</body>
+
+</html>

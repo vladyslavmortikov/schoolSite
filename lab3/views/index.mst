@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+  {{>head}}
+</head>
+
+<body>
+<div id="site-body">
+<header>
+{{>header}}
+</header>
+    <img class="main-photo" src="/images/main_photo.png">
+    <h1>Ласкаво просимо до ЗОШ І-ІІІ ступенів №2!</h1>
+    <p>ОФІЦІЙНИЙ САЙТ</p>
+
+    {{>footer}}
+     
+  </div>
+
+</body>
+
+</html>

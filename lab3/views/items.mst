@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+    {{>head}}
+</head>
+
+<body>
+    <div id="site-body">
+        <header>
+           {{>header}}
+        </header>
+        <h1 class="header-text">НОВИНИ ШКОЛИ</h1>
+        <table>
+      <tbody>
+        {{#items}}
+        <tr>
+           <td><img class="news-photo" src={{photo}}><a href= "/items/{{&id}}">{{title}}</a><p>{{preview}} Rating: {{rating}}</p></td>  
+
+        </tr>
+        {{/items}}
+      </tbody>
+    </table>
+         {{>footer}}
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+ {{>head}}
+</head>
+
+<body>
+<div id="site-body">
+
+   <header>
+    {{>header}}
+    </header>
+    <p><img class="news-main-photo" src={{photo}}>
+      <h2>{{title}}</h2>
+      <p><b>Date:</b> {{postedAt}}</p>
+     {{text}}
+    </p>
+   {{>footer}}
+</div>
+</body>
+
+</html>

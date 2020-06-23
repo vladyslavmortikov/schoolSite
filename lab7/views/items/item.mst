@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+ {{>head}}
+</head>
+
+<body>
+<div id="site-body">
+
+   <header>
+    {{>header}}
+    </header>
+    <p><img class="news-main-photo" src={{item.photo}}>
+      <h2>{{item.title}}</h2>
+      <p><b>Date:</b> {{item.postedAt}}</p>
+     {{item.text}}
+    </p>
+
+    <form action='/news/{{item.id}}/delete' method='POST' enctype="multipart/form-data">
+      <button type="submit" value="deleteButton" id="deleteButton">
+        <img src="/images/delete.png" width="20" height="20" alt="Видалити новину">
+      </button>
+    </form>
+
+    <form action='/news/{{item.id}}/edit' method='GET'>
+      <button id="updateNewsButton" type="submit" value="updateNewsButton">Редагувати</button>
+    </form>
+
+   {{>footer}}
+</div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+   {{>head}}
+</head>
+
+<body>
+  <div id="site-body">
+    <header>
+       {{>header}}
+    </header>
+    <h1 class="header-text">ОЦІНКИ</h1>
+
+<table>
+       <tbody>
+            <tr>
+                <th>Прізвище та ім'я студета</th>
+                <th>Предмет</th>
+                <th>Оцінка</th>
+            </tr>
+           {{#marks}} 
+          <tr>
+                <td>{{userId}}</a></td>
+                <td>{{subjectId}}</a></td>
+                <td><a href="/marks/{{&id}}">{{value}}</a></td>
+                <td><form action='/marks/{{&id}}/delete' method='POST' enctype="multipart/form-data">
+                    <button type="submit" value="deleteButton" id="deleteButton">
+                         <img src="/images/delete.png" width="20" height="20" alt="Видалити оцінку">
+                    </button>
+                    </form>
+                </td>
+                <td><form action='/marks/{{&id}}/edit' method='GET'>
+                    <button type="submit" value="updateButton" id="updateButton">
+                         <img src="/images/edit.png" width="20" height="20" alt="Редагувати оцінку">
+                    </button>
+                    </form>
+                </td>
+                 </td>
+          </tr>
+          {{/marks}}
+        </tbody>
+    </table>
+
+      <form action='/marks/new' method='GET'>
+            <button id="addMarkButton" type="submit" value="addMarkButton">Нова оцінка</button>
+      </form>
+
+      {{>footer}}
+  </div>
+</body>
+
+</html>

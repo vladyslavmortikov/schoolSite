@@ -1,0 +1,23 @@
+{
+    "nextId": 2,
+    "items": [
+        {
+            "id": 0,
+            "title": "Title 0",
+            "preview": "Preview Text 0",
+            "photo": "photo",
+            "rating": 2,
+            "voted": 1231,
+            "postedAt": "2019-08-10T10:05:19Z"
+        },
+        {
+            "id": 1,
+            "title": "Title 1",
+            "preview": "Preview Text 1",
+            "photo": "photo",
+            "rating": 2,
+            "voted": 1231,
+            "postedAt": "2019-09-10T10:05:19Z"
+        }
+    ]
+}

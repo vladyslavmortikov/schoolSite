@@ -1,0 +1,53 @@
+{
+    "nextId": 7,
+    "items": [
+        {
+            "id": 0,
+            "userId": 1,
+            "subject": "Math",
+            "value": 10,
+            "description": "Test 2",
+            "date": "2019-10-30T15:41:16.953Z"
+        },
+        {
+            "id": 2,
+            "userId": 3,
+            "subject": "Webprogbase",
+            "value": 12,
+            "description": "Lab 9",
+            "date": "2019-10-30T15:46:52.824Z"
+        },
+        {
+            "id": 3,
+            "userId": 4,
+            "subject": "Progbase",
+            "value": 8,
+            "description": "Lab 2",
+            "date": "2019-10-30T15:45:04.530Z"
+        },
+        {
+            "id": 4,
+            "userId": 6,
+            "subject": "lala",
+            "value": 12,
+            "description": "lab7",
+            "date": "2019-10-30T15:59:50.951Z"
+        },
+        {
+            "id": 5,
+            "userId": 5,
+            "subject": "WEbPD",
+            "value": 13,
+            "description": "LAB6",
+            "date": "2019-10-30T15:51:58.126Z"
+        },
+        {
+            "id": 6,
+            "userId": 23,
+            "subject": "Webprogbase",
+            "value": 8,
+            "description": "Lab2",
+            "date": "2019-10-31T21:37:54.221Z"
+        }
+    ]
+}

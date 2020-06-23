@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+ {{>head}}
+</head>
+
+<body>
+<div id="site-body">
+
+   <header>
+    {{>header}}
+    </header>
+    <p><img class="news-main-photo" src={{item.photo}}>
+      <h2>{{item.title}}</h2>
+      <form action='/news/{{item.id}}' method='POST' enctype="multipart/form-data">
+            <input type="submit" value="Видалити новину">
+        </form>
+      <p><b>Date:</b> {{item.postedAt}}</p>
+     {{item.text}}
+    </p>
+
+   {{>footer}}
+</div>
+</body>
+
+</html>

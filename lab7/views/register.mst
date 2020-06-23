@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+  {{>head}}
+</head>
+
+<body>
+
+    <div id="site-body">
+    <header>
+     {{>header}}
+    </header>
+    <div id="main">
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Реєстрація</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input require type="text" name="name" minlength="5" maxlength="40" id="name" placeholder="Прізвище та ім'я">
+                            </div>
+                            <div class="form-group">
+                                <label for="login"><i class="zmdi zmdi-email"></i></label>
+                                <input require type="login" minlength="5" maxlength="20" name="login" id="login" placeholder="Логін">
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input require type="password" name="pass" minlength="8" id="pass" placeholder="Пароль">
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input require type="password" name="re_pass" id="re_pass" placeholder="Підтвердіть пароль">
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Зарєструватися">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="../images/sign-in-up.png" alt="Електронний щоденник-лого"></figure>
+                        <a href="/auth/login" class="signup-image-link">Уже зареєстрований?</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>

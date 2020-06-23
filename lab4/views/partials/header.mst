@@ -1,0 +1,10 @@
+<a href="/"><img class="photo-logo" src="../images/school_logo.png"></a>
+      <div class="top-menu">
+        <ul>
+          <li><a href="/philosophy"><b>Про Школу</b></a></li>
+          <li><a href="/enrolment"><b>Вступ</b></a></li>
+          <li><a href="/news=1"><b>Новини</b></a></li>
+          <li><a href="/handbook"><b>Для батьків</b></a></li>
+          <li><a href="/users"><b>Користувачі</b></a></li>
+        </ul>
+      </div>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+  {{>head}}
+</head>
+
+<body>
+<div id="site-body">
+<header>
+    {{>header}}
+</header>
+<p><img class = "user-photo" src="{{avaUrl}}"></p>
+<h2><b>Детальна інформація про користувача</b></h2>
+<h2><b>{{fullName}}</b></h2>
+<p><b>Логін:</b> {{login}}</p> 
+<p><b>Дата реєстрації:</b> {{registeredAt}}</p>
+<p><b>Статус:</b> {{role}}</p>
+</p>
+
+  {{>footer}}
+</div>
+</body>
+
+</html>

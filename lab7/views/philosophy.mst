@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+   {{>head}}
+</head>
+
+<body>
+  <div id="site-body">
+    <header>
+       {{>header}}
+    </header>
+    <h1 class="header-text">ФІЛОСОФІЯ ШКОЛИ</h1>
+    <h2>САЙТ В РОЗРОБЦІ.</h2>
+        <p>Школа заснована 1969 року.</p>
+
+      {{>footer}}
+     
+  </div>
+</body>
+
+</html>

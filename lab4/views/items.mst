@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+    {{>head}}
+</head>
+
+<body>
+    <div id="site-body">
+        <header>
+           {{>header}}
+        </header>
+        <h1 class="header-text">НОВИНИ ШКОЛИ</h1>
+        
+        <p><form action='/news={{prevPage}}' method='GET'>
+            <button id="leftButton" type="submit" value="leftButton"><</button>
+        </form>Page: {{page}}/{{pageAmount}}<form action='/news={{nextPage}}' method='GET'>      
+            <button id="rightButton" type="submit" value="rightButton">></button>
+        </form><p>
+
+        
+        <form action='/news={{page}}' method='GET'>
+        
+            <input type='text' name='search'>
+            <button type="submit" value="searchButton" id="searchButton">
+           <img src="/images/search.png" width="20" height="20" alt="Шукати">
+            </button>
+        </form>
+
+        <form action='/news/new' method='GET'>
+            <button id="addNewsButton" type="submit" value="addNewsButton">Додати новину</button>
+        </form>
+
+        <table>
+      <tbody>
+        {{#items}}
+        <tr>
+           <td><img class="news-photo" src={{photo}}><a href= "/news/{{&id}}">{{title}}</a><p>{{preview}}</p></td>  
+        </tr>
+        {{/items}}
+      </tbody>
+    </table>
+
+         {{>footer}}
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+{{>head}}
+</head>
+
+<body>
+  <div id="site-body">
+    <header>
+     {{>header}}
+    </header>
+    <h1 class="header-text">СТОРІНКА КОРИСТУВАЧІВ</h1>
+
+    <table>
+       <tbody>
+            <tr>
+                <th>Прізвище, ім'я</th>
+                <th>Логін</th>
+                <th>Дата реєстрації</th>
+            </tr>
+          {{#users}}
+          <tr>
+                <td>{{fullName}}</a></td>
+                <td><a href="users/{{id}}">{{login}}</a></td>
+                <td>{{registeredAt}}</td>
+
+           {{/users}}
+          </tr>
+        </tbody>
+    </table>
+       {{>footer}}
+  </div>
+
+</body>
+
+</html>

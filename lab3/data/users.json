@@ -1,0 +1,59 @@
+{
+    "nextId": 3,
+    "items": [
+        {
+            "id": 1,
+            "login": "nata-oleks",
+            "role": 0,
+            "fullName": "Наталія ОЛЕКСІЄНКО",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "/images/1.png",
+            "isDisabled": false
+        },
+        {
+            "id": 2,
+            "login": "mas_nata",
+            "role": 0,
+            "fullName": "Наталія МАСЛЯНИК",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "/images/2.png",
+            "isDisabled": false
+        },
+        {
+            "id": 3,
+            "login": "vozniak",
+            "role": 0,
+            "fullName": "Віталій ВОЗНЯК",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "http://zosh2kom.ucoz.ua/Foto_vchitel/voznjak1.jpg",
+            "isDisabled": false
+        },
+        {
+            "id": 4,
+            "login": "vasyl.sport",
+            "role": 0,
+            "fullName": "Василь БІЛІЧЕНКО",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "http://zosh2kom.ucoz.ua/Foto_vchitel/bilichenko_v.a..jpg",
+            "isDisabled": false
+        },
+        {
+            "id": 5,
+            "login": "tanya-kirich",
+            "role": 1,
+            "fullName": "Тетяна КИРИЧЕНКО",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "http://progbase.herokuapp.com/images/progbase.jpg",
+            "isDisabled": false
+        },
+        {
+            "id": 6,
+            "login": "eugene-mih",
+            "role": 0,
+            "fullName": "Євгеній МИХАСЬОВ",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "http://zosh2kom.ucoz.ua/Foto_vchitel/mikhasov.jpg",
+            "isDisabled": false
+        }
+    ]
+}

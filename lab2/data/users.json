@@ -1,0 +1,23 @@
+{
+    "nextId": 2,
+    "items": [
+        {
+            "id": 0,
+            "login": "vladyslavmortikov",
+            "role": 1,
+            "fullName": "Vladyslav Mortikov",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "http://progbase.herokuapp.com/images/progbase.jpg",
+            "isDisabled": false
+        },
+        {
+            "id": 1,
+            "login": "marta_brezhneva",
+            "role": 0,
+            "fullName": "Marta Brezhneva",
+            "registeredAt": "2018-09-19T10:05:19Z",
+            "avaUrl": "http://progbase.herokuapp.com/images/progbase.jpg",
+            "isDisabled": false
+        }
+    ]
+}
